@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 		return EXIT_FAILURE;
 	}
 	
-	DEBUG("Writing Whatever %s to %s", argv[2], argv[1]);
+	DEBUG("Writing %s to %s", argv[2], argv[1]);
 
 	fd = open(argv[1], O_CREAT | O_WRONLY, 0666);
 
